@@ -38,5 +38,5 @@ program
 program.parse(process.argv);
 
 const argv = program.opts();
-
+console.log("hello")
 invokeAction(argv);
